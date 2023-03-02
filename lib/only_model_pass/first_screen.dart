@@ -24,9 +24,9 @@ class _FirstScreenState extends State<FirstScreen> {
                 MaterialPageRoute(
                   builder: (context) => SecondScreen(
                     data: StudentModel(
+                      age: 22,
                       name: "janki",
-                      surname: "Thummar",
-                      age: 12,
+                      surname: "thummar",
                     ),
                   ),
                 ),

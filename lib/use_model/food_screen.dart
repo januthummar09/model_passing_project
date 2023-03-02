@@ -36,7 +36,9 @@ class _FoodScreenState extends State<FoodScreen> {
             color: Colors.pink,
             width: double.infinity,
             child: Center(
-              child: Text(
+              child:
+              
+               Text(
                 itemIndex.toString(),
               ),
             ),

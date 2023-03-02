@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:model_passing_project/use_model/food_screen.dart';
 
+import 'home_screen.dart';
 import 'only_model_pass/first_screen.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FoodScreen(),
+      home: const FirstScreen(),
     );
   }
 }
